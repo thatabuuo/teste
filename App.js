@@ -1,13 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button} from 'react-native';
+
+import { StyleSheet, Text, View} from 'react-native';
+import Thaina from './SRC/Componets/Thaina/main.js';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>izabel hillary</Text>
-           <Text>aula dia 14-03-2024</Text>
-           <Button title='Salvar'></Button>
-      <StatusBar style="auto" />
+
+    <Thaina/>
     </View>
   );
 }
